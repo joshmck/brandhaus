@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { appendLeadRow } from "@/lib/google-sheets";
+import { appendLeadRow } from "@/lib/googles-sheets";
 
 const contactSchema = z.object({
   name: z.string().min(2, "Name is required"),
